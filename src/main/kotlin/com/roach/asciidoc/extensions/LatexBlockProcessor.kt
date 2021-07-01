@@ -25,7 +25,14 @@ class LatexBlockProcessor :   BlockProcessor(){
         val sourceReader = SourceStringReader(content)
         val filename = attributes.getOrDefault("2", "${System.currentTimeMillis()}_unk")
 
+        val parentf = File("${reader.dir}/images/")
+        if(!parentf.exists()) {
+            parentf.mkdirs()
+        }
         val f = File("${reader.dir}/images/$filename.svg")
+        if(f.exists()) {
+            f.delete()
+        }
         val os = FileOutputStream(f)
 
         sourceReader.outputImage(os, FileFormatOption(FileFormat.SVG))
