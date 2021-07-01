@@ -1,1 +1,25 @@
 = latex-asciidoc-plantuml-extension
+
+== Extensions
+
+An Asciidoctorj Block Processor Extension, compatible only for Java. This extension allows the usage of Plantuml to generate Latex Math Formula.
+See plantuml support here https://plantuml.com/ascii-math.
+
+== Getting started
+
+. publish this library to your maven repository.
+
+use the maven dependency to add to your asciidoctorj project
+
+[source,xml]
+----
+<dependency>
+    <groupId>com.roach.asciidoc</groupId>
+    <artifactId>latex-plantuml-extension</artifactId>
+    <version>0.0.1</version>
+</dependency>
+----
+
+== Run Unit tests
+
+This project comes with a unit tests that produces a `basic.html` file located in the target directory. Run the unit tests and check the target directory for example on how this extnetion works
