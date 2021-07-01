@@ -82,3 +82,25 @@ f(t)=(a_0)/2 + sum_(n=1)^ooa_ncos((npit)/L)+sum_(n=1)^oo b_n\ sin((npit)/L)
 2x^2 + 3(x-1)(x-2)  = 2x^2 + 3(x^2-3x+2) = 2x^2 + 3x^2 - 9x + 6 = 5x^2 - 9x + 6
 @endmath
 ----
+
+== Demo 4
+
+=== AsciiDoc Source Code
+[source,asciidoc]
+....
+[latex,demo4]
+----
+@startuml
+:<latex>q_{w}=\varepsilon q_{w,0} \sqrt{\frac{{L}}{{h_{ w}}}}</latex>;
+@enduml
+----
+....
+
+=== Output
+
+[latex,demo4]
+----
+@startuml
+:<latex>q_{w}=\varepsilon q_{w,0} \sqrt{\frac{{L}}{{h_{ w}}}}</latex>;
+@enduml
+----
