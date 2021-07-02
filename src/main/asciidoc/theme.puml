@@ -1,0 +1,4 @@
+@startuml
+!theme silver
+a -> b
+@enduml

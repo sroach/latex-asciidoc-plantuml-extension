@@ -1,0 +1,6 @@
+@startuml
+!theme silver
+:<math>f(t) = a_(0)/2 + sum_(n=1)^oo [a_(n) cos(nt) + b_(n) sin(nt)]</math>]
+:<math>x^' = frac(-b -sqrt(Delta))(2a)</math>]
+:<math>ax^2 + bx + c = 0</math>]
+@enduml

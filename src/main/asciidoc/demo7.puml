@@ -1,0 +1,6 @@
+@startuml
+!theme silver
+scale 4
+skinparam Backgroundcolor transparent
+:<math>int_-1^1 sqrt(1-x^2)dx = pi/2</math>]
+@enduml

@@ -1,0 +1,5 @@
+@startuml
+!theme silver
+:<latex>q_{w}=\varepsilon q_{w,0} \sqrt{\frac{{L}}{{h_{ w}}}}</latex>;
+:<latex>\frac {\partial^2 u} {\partial \rho^2}</latex>;
+@enduml
