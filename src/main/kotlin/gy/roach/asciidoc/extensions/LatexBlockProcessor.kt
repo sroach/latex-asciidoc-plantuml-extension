@@ -1,4 +1,4 @@
-package com.roach.asciidoc.extensions
+package gy.roach.asciidoc.extensions
 
 import net.sourceforge.plantuml.FileFormat
 import net.sourceforge.plantuml.FileFormatOption

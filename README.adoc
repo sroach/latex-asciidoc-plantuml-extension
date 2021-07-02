@@ -14,7 +14,7 @@ use the maven dependency to add to your asciidoctorj project
 [source,xml]
 ----
 <dependency>
-    <groupId>com.roach.asciidoc</groupId>
+    <groupId>gy.roach.asciidoc</groupId>
     <artifactId>latex-plantuml-extension</artifactId>
     <version>0.0.1</version>
 </dependency>

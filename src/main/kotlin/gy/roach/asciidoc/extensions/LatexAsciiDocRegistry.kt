@@ -1,4 +1,4 @@
-package com.roach.asciidoc.extensions
+package gy.roach.asciidoc.extensions
 
 import org.asciidoctor.Asciidoctor
 import org.asciidoctor.jruby.extension.spi.ExtensionRegistry
