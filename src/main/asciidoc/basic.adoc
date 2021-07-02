@@ -113,8 +113,20 @@ f(t)=(a_0)/2 + sum_(n=1)^ooa_ncos((npit)/L)+sum_(n=1)^oo b_n\ sin((npit)/L)
 [latex,demo5]
 ----
 @startmath
-\frac {\partial^2 u} {\partial \rho^2}
+\frac {\partial^2 u} {\partial \rho^2} +
+\frac{1}{\rho} \frac{\partial u}{\partial \rho} +
+\left(\frac{r_0}{z_0}\right)^2 \frac{\partial^2 u}{\partial \zeta^2} = P\frac{\partial u}{\partial \theta}; \quad
+P = \omega r_0^2 / \alpha
 @endmath
 ----
 ....
+
+=== Output
+
+[latex,demo5]
+----
+@startuml
+:<latex>\frac {\partial^2 u} {\partial \rho^2} + \frac{1}{\rho} \frac{\partial u}{\partial \rho} + \left(\frac{r_0}{z_0}\right)^2 \frac{\partial^2 u}{\partial \zeta^2} = P\frac{\partial u}{\partial \theta}; \quad P = \omega r_0^2 / \alpha</latex>;
+@enduml
+----
 
