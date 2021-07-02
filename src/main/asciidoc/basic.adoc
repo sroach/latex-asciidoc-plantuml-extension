@@ -104,3 +104,17 @@ f(t)=(a_0)/2 + sum_(n=1)^ooa_ncos((npit)/L)+sum_(n=1)^oo b_n\ sin((npit)/L)
 :<latex>q_{w}=\varepsilon q_{w,0} \sqrt{\frac{{L}}{{h_{ w}}}}</latex>;
 @enduml
 ----
+
+== Demo 5 - Conduction in a finite thickness, rotating disk
+
+=== AsciiDoc Source Code
+[source,asciidoc]
+....
+[latex,demo5]
+----
+@startmath
+\frac {\partial^2 u} {\partial \rho^2}
+@endmath
+----
+....
+
