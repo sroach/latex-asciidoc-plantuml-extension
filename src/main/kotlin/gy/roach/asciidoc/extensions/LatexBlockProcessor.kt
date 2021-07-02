@@ -21,10 +21,8 @@ import java.nio.charset.Charset
 class LatexBlockProcessor :   BlockProcessor(){
     override fun process(parent: StructuralNode, reader: Reader, attributes: MutableMap<String, Any>): Any? {
         val content = reader.read()
-
         val sourceReader = SourceStringReader(content)
         val filename = attributes.getOrDefault("2", "${System.currentTimeMillis()}_unk")
-
         val parentf = File("${reader.dir}/images/")
         if(!parentf.exists()) {
             parentf.mkdirs()
